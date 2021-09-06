@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 
+//functions
 void is_palindrome(string word);
 
 int main(){
@@ -14,11 +15,12 @@ int main(){
 		//check palindroness
 		if (WORD != "") is_palindrome(WORD);
 	}
-	while(WORD != "");
+	while(WORD != ""); //exit when users enters a empty line
 
 	return 0;
 }
 
+//check whenever a string is palindrome or not
 void is_palindrome(string WORD){
 
 	//iterate till the middle char
